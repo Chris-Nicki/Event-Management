@@ -1,0 +1,23 @@
+# Event Management System in Python 
+This project provides a basic event management system to create, manage, and schedule events, along with participant registration and waitlists.
+
+## Features:
+
+### Event Management:
+Create new events with details like name, date, time, location, and participant limit.
+Display information about existing events.
+
+### Participant Management: 
+Register participants for events, ensuring capacity is not exceeded.
+Add participants to a waitlist for full events.
+Remove participants from events, promoting the first waitlist member if available.
+View participant details for an event.
+### Scheduling: 
+Ability to view event details provides a basic schedule overview.
+
+### Data Structures: 
+Events are stored in a dictionary with the event ID as the key.
+Each event is represented by an Event class object that holds:
+Event details (name, date, time, location, participation limit)
+Dictionary for registered participants (participant ID as key, details as value)
+Queue for the waitlist
